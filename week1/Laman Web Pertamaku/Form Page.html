@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h3>Sign Up Form</h3>
+    <div>
+        <form action="welcome.html">
+            <div>
+                <label for="Firstname">First Name</label><br>
+                <input id="Firstname" type="Text" placeholder="firstname" required>
+            </div>
+            <br>
+            <div>
+                <label for="Lastname">Last Name</label><br>
+                <input id="Lastname" type="text" placeholder="lastname" required>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="Gender">Gender</label><br>
+                </div>
+                <div>
+                    <input id="Male" type="radio" name="genderchoice">
+                    <label for="Male">Male</label>  
+                </div>
+                <div>
+                    <input id="Female" type="radio" name="genderchoice">
+                    <label for="Female">Female</label>  
+                </div>
+                <div>
+                        <input id="Other" type="radio" name="genderchoice">
+                        <label for="Other">Other</label>  
+                </div>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="Nationality">Nationality</label>
+                </div>
+                <select name="Nationality">
+                    <option value="Nationality">Nationality</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Kamboja">Kamboja</option>
+                    <option value="Philipina">Philipina</option>
+                    <option value="Brunei Darusallam">Brunei Darusallam</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="Language">Language Spoken:</label><br>
+                </div>
+                <div>
+                    <input id="Bahasa Indonesia" type="checkbox">
+                    <label for="Bahasa indonesia">Bahasa Indonesia</label>  
+                </div>
+                <div>
+                    <input id="English" type="checkbox">
+                    <label for="English">English</label>  
+                </div>
+                <div>
+                    <input id="Other" type="checkbox">
+                    <label for="Other">Other</label>  
+                </div>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="bio">Bio</label><br>
+                    <textarea name="textarea" id="bio" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
